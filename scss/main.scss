@@ -1,0 +1,34 @@
+@import 'absrtacts/_variable';
+@import 'layout/_header';
+@import 'layout/_footer';
+@import 'components/_burger' ;
+@import 'layout/_main-part';
+@import 'layout/_grid';
+@import 'components/_buttons' ;
+@import 'absrtacts/_mixins';
+
+
+body {
+  margin: 0;
+  padding: 0;
+  
+}
+.name {
+  &_item {
+    margin: 20px;
+  }
+  li {
+    text-align: center;
+  }
+  top:20px;
+
+}
+@media all and (max-width: 998px) {
+.container{
+  width: 100%;
+}
+}
+
+*{
+  box-sizing: border-box;
+}

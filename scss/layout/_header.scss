@@ -1,0 +1,250 @@
+.container_nav {
+   width: 100%;
+   max-width: $md2 + px;
+   margin: 0 auto;
+   height: 100%;
+}
+
+.navbar {
+   width: 100%;
+  
+   background: #fff;
+   .logo {
+      text-decoration: none;
+      color: #000;
+      font-size: 42px;
+      letter-spacing: 7px;
+      font-family: $main_font;
+      font-weight: normal;
+      text-transform: uppercase;
+      display: flex;
+      align-items: center;
+   }
+}
+
+.navbar__wrap {
+   display: flex;
+   justify-content: space-between;
+   height: 100%;
+}
+
+.hamb {
+   display: none;
+}
+
+.popup {
+   display: none;
+}
+
+.menu > li > a {
+   text-decoration: none;
+}
+
+.navbar__wrap .menu {
+   display: flex;
+}
+
+.navbar__wrap .menu > li {
+   display: flex;
+   align-items: stretch;
+}
+
+.navbar__wrap .menu > li > a {
+   display: flex;
+   align-items: center;
+   padding: 0 20px;
+   color: rgba(41, 41, 41, 1);
+   font-size: 16px;
+   font-family: $main_font;
+}
+
+@media (max-width: $md6 + px) {
+   .navbar__wrap .menu {
+      display: none;
+   }
+   .navbar .logo {
+      font-size: calc(24px + (16 + 16 * 0.7) * ((100vw - 320px) / 1280));
+   }
+   .hamb {
+      display: flex;
+      align-items: center;
+   }
+
+   .hamb__field {
+      padding: 10px 20px;
+      cursor: pointer;
+   }
+
+   .bar {
+      display: block;
+      width: 25px;
+      height: 2px;
+      margin: 6px auto;
+      background-color: #000;
+      transition: 0.2s;
+   }
+
+   .popup {
+      position: fixed;
+      top: 75px;
+      left: -100%;
+      width: 100%;
+      height: 100%;
+      background-color: #FFF;
+      z-index: 100;
+      display: flex;
+      transition: 0.3s;
+      
+   }
+
+   .popup.open {
+      left: 0;
+   }
+
+   .popup .menu {
+      width: 100%;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: start;
+      overflow: auto;
+      padding-top: 20px;
+   }
+
+   .popup .menu > li {
+      width: 100%;
+   }
+
+   .popup .menu > li > a {
+      width: 100%;
+      display: flex;
+      padding: 20px 0;
+      font-size: 20px;
+      font-weight: bold;
+      color: #3f3f3f;
+      padding-left: 80px;
+   }
+
+   .popup .menu > li > a:hover {
+   color: #565344;
+
+   }
+
+   .hamb__field.active .bar:nth-child(2) {
+      opacity: 0;
+   }
+
+   .hamb__field.active .bar:nth-child(1) {
+      transform: translateY(8px) rotate(45deg);
+   }
+
+   .hamb__field.active .bar:nth-child(3) {
+      transform: translateY(-8px) rotate(-45deg);
+   }
+
+   body.noscroll {
+      overflow: hidden;
+   }
+   .basket-nav .basket::before{
+      margin-right: 5px;
+   }
+    .tut .header_two-part{
+      background: url(img/Rectangle.png) -350px 0/auto 100% no-repeat;
+      
+   }
+}
+
+.basket::before {
+   content: "";
+   display: block;
+   background: url("icon/basket.png") no-repeat;
+   width: 36px;
+   height: 20px;
+   margin: 48px 30px 0 13px;
+}
+.basket {
+   border-right: 1px solid #000;
+   height: 115px;
+}
+
+.basket-nav {
+   display: flex;
+   &_login {
+      display: flex;
+      align-items: center;
+      text-decoration: none;
+      color:$main-color_black;
+      font-family: $main_font;
+      padding-right: 13px;
+      border-right: 2px solid #000;
+      height: 25px;
+      align-self: center;
+   }
+
+   &_icon {
+   }
+}
+
+.container{
+   width: 1170px;
+   overflow: hidden;
+}
+
+.header_two-part{
+   background: url(img/Rectangle.png) 0 0/auto 100% no-repeat;
+   height: 630px;
+   display: flex;
+   align-items: flex-end;
+   justify-content: center;
+   .header_two-part-block{
+      h1{
+      font-family: "Roboto", sans-serif;
+      font-size: 20px;
+      color: #fff;
+      font-weight: normal;
+      margin: 0;
+      padding: 0;
+      letter-spacing: 0.6px;
+      }
+      div{
+            width: 80px;
+            height: 60px;
+            margin-top: 10px;
+      a{
+         text-decoration: none;
+         color: #fff;
+      }
+      a:hover{
+         color: #565344;
+      }
+      }
+   }
+   @media (max-width: $md6 + px){
+      .header_two-part-block{
+         margin-left: 30px;
+      }
+   }
+   
+
+}
+
+.navbar{
+   a:hover{
+      color: #565344;
+   }
+   ul{
+      a:hover{
+         color: #53503f;
+   }
+}
+
+}
+
+.popup .menu > li > a:hover {
+   color: #565344;
+}
+
+
+
+

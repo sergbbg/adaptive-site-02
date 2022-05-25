@@ -1,0 +1,78 @@
+.block_product_main{
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr 1fr;
+   grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+   gap: 20px 20px;
+   grid-template-areas: ". . . ." ". . . ." ". . . ." ". . . ." ". . . .";
+}
+
+@media all and (max-width: 1200px) {
+   .block_product_main {
+     display: -ms-grid;
+     display: grid;
+     -ms-grid-columns: 1fr 1fr 1fr;
+         grid-template-columns: 1fr 1fr 1fr;
+     -ms-grid-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+         grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+     gap: 5px 20px;
+         grid-template-areas: ". ."
+  ". ."
+  ". ."
+  ". ."
+  ". ."
+  ". ."
+  ". ."
+  ". ."
+  ". ."
+  ". ."
+  ". .";
+     justify-items: center;
+   }
+ }
+ 
+ @media all and (max-width: 940px) {
+   .block_product_main {
+     display: grid;
+         grid-template-columns: 1fr 1fr;
+         grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+     gap: 20px 20px;
+         grid-template-areas: ". ."
+  ". ."
+  ". ."
+  ". ."
+  ". ."
+  ". ."
+  ". ."
+  ". ."
+  ". ."
+  ". ."
+  ". .";
+     justify-items: center;
+   }
+ }
+
+
+ @media all and (max-width: 600px) {
+   .block_product_main {
+      display: grid; 
+  grid-template-columns: 1fr; 
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr; 
+  gap: 20px 20px; 
+  grid-template-areas: 
+    "."
+    "."
+    "."
+    "."
+    "."
+    "."
+    "."
+    "."
+    "."
+    "."
+    "."; 
+ }
+ }
+
+
+
+ 

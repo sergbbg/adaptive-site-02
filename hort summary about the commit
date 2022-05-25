@@ -1,0 +1,207 @@
+[33mcommit 0a63b9e92a006057ca406d23caa5ba687a56a51e[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m
+Author: serg <berbrnets1@gmail.com>
+Date:   Tue Mar 22 22:04:30 2022 +0300
+
+    Your short summary about the commit
+
+[1mdiff --git a/img/22.png b/img/22.png[m
+[1mnew file mode 100644[m
+[1mindex 0000000..d1bc7e4[m
+Binary files /dev/null and b/img/22.png differ
+[1mdiff --git a/img/Rectangle.png b/img/Rectangle.png[m
+[1mnew file mode 100644[m
+[1mindex 0000000..231ddff[m
+Binary files /dev/null and b/img/Rectangle.png differ
+[1mdiff --git a/img/p1.png b/img/p1.png[m
+[1mnew file mode 100644[m
+[1mindex 0000000..58c2489[m
+Binary files /dev/null and b/img/p1.png differ
+[1mdiff --git a/img/p10.png b/img/p10.png[m
+[1mnew file mode 100644[m
+[1mindex 0000000..b90ea93[m
+Binary files /dev/null and b/img/p10.png differ
+[1mdiff --git a/img/p11.png b/img/p11.png[m
+[1mnew file mode 100644[m
+[1mindex 0000000..6ae063d[m
+Binary files /dev/null and b/img/p11.png differ
+[1mdiff --git a/img/p12.png b/img/p12.png[m
+[1mnew file mode 100644[m
+[1mindex 0000000..4663411[m
+Binary files /dev/null and b/img/p12.png differ
+[1mdiff --git a/img/p13.png b/img/p13.png[m
+[1mnew file mode 100644[m
+[1mindex 0000000..233455e[m
+Binary files /dev/null and b/img/p13.png differ
+[1mdiff --git a/img/p14.png b/img/p14.png[m
+[1mnew file mode 100644[m
+[1mindex 0000000..0616066[m
+Binary files /dev/null and b/img/p14.png differ
+[1mdiff --git a/img/p15.png b/img/p15.png[m
+[1mnew file mode 100644[m
+[1mindex 0000000..ed8ad08[m
+Binary files /dev/null and b/img/p15.png differ
+[1mdiff --git a/img/p16.png b/img/p16.png[m
+[1mnew file mode 100644[m
+[1mindex 0000000..64f8713[m
+Binary files /dev/null and b/img/p16.png differ
+[1mdiff --git a/img/p17.png b/img/p17.png[m
+[1mnew file mode 100644[m
+[1mindex 0000000..f01a71e[m
+Binary files /dev/null and b/img/p17.png differ
+[1mdiff --git a/img/p18..png b/img/p18..png[m
+[1mnew file mode 100644[m
+[1mindex 0000000..9d56a56[m
+Binary files /dev/null and b/img/p18..png differ
+[1mdiff --git a/img/p19.png b/img/p19.png[m
+[1mnew file mode 100644[m
+[1mindex 0000000..3ea7ed1[m
+Binary files /dev/null and b/img/p19.png differ
+[1mdiff --git a/img/p2.png b/img/p2.png[m
+[1mnew file mode 100644[m
+[1mindex 0000000..42c814e[m
+Binary files /dev/null and b/img/p2.png differ
+[1mdiff --git a/img/p20.png b/img/p20.png[m
+[1mnew file mode 100644[m
+[1mindex 0000000..82a8bbe[m
+Binary files /dev/null and b/img/p20.png differ
+[1mdiff --git a/img/p3.png b/img/p3.png[m
+[1mnew file mode 100644[m
+[1mindex 0000000..2bca81f[m
+Binary files /dev/null and b/img/p3.png differ
+[1mdiff --git a/img/p4.png b/img/p4.png[m
+[1mnew file mode 100644[m
+[1mindex 0000000..0470c30[m
+Binary files /dev/null and b/img/p4.png differ
+[1mdiff --git a/img/p5.png b/img/p5.png[m
+[1mnew file mode 100644[m
+[1mindex 0000000..289b830[m
+Binary files /dev/null and b/img/p5.png differ
+[1mdiff --git a/img/p6.png b/img/p6.png[m
+[1mnew file mode 100644[m
+[1mindex 0000000..aaead89[m
+Binary files /dev/null and b/img/p6.png differ
+[1mdiff --git a/img/p7.png b/img/p7.png[m
+[1mnew file mode 100644[m
+[1mindex 0000000..72d258f[m
+Binary files /dev/null and b/img/p7.png differ
+[1mdiff --git a/img/p8.png b/img/p8.png[m
+[1mnew file mode 100644[m
+[1mindex 0000000..64d8de7[m
+Binary files /dev/null and b/img/p8.png differ
+[1mdiff --git a/img/p9.png b/img/p9.png[m
+[1mnew file mode 100644[m
+[1mindex 0000000..956a5dc[m
+Binary files /dev/null and b/img/p9.png differ
+[1mdiff --git a/index.html b/index.html[m
+[1mindex fc26574..fc5f375 100644[m
+[1m--- a/index.html[m
+[1m+++ b/index.html[m
+[36m@@ -17,270 +17,289 @@[m
+ [m
+ <body>[m
+    <main>[m
+[31m-      <header>[m
+[31m-         <section>[m
+[31m-            <nav class="nav">[m
+[31m-               <div class="nav_block_one">[m
+[31m-                  <h1> UGMONK </h1>[m
+[31m-               </div>[m
+[31m-               <div class="nav_block_two nav_block">[m
+[31m-                  <ul class="menu menu_one">[m
+[32m+[m[32m      <header class="tut">[m
+[32m+[m[32m         <nav class="navbar">[m
+[32m+[m[32m            <div class="container_nav">[m
+[32m+[m[32m               <div class="navbar__wrap">[m
+[32m+[m[32m                  <div class="hamb">[m
+[32m+[m[32m                     <div class="hamb__field" id="hamb">[m
+[32m+[m[32m                        <span class="bar"></span>[m
+[32m+[m[32m                        <span class="bar"></span>[m
+[32m+[m[32m                        <span class="bar"></span>[m
+[32m+[m[32m                     </div>[m
+[32m+[m[32m                  </div>[m
+[32m+[m[32m                  <a href="#" class="logo lk" id="logo">UGMONK </a>[m
+[32m+[m
+[32m+[m[32m                  <ul class="menu" id="menu">[m
+                      <li> <a href="">Men </a> </li>[m
+                      <li> <a href=" ">Women </a> </li>[m
+                      <li> <a href="">Objects </a> </li>[m
+                      <li> <a href="">Analog </a> </li>[m
+                   </ul>[m
+[31m-                  <ul class="menu menu_two">[m
+[32m+[m
+[32m+[m[32m                  <ul class="menu" id="menu">[m
+                      <li class="item"> <a href="">Journal</a> </li>[m
+                      <li> <a href="">Search </a></li>[m
+[31m-                     <li class="item"> <a href="">Login </a> </li>[m
+                   </ul>[m
+[31m-                  <div class="basket"></div>[m
+[32m+[m[32m                  <div class="basket-nav">[m
+[32m+[m[32m                     <a  class="basket-nav_login" href="#">Login </a>[m[41m [m
+[32m+[m[32m                     <a  class="basket-nav_icon basket" href="#" class="basket"></a>[m
+[32m+[m[32m                  </div>[m
+[32m+[m
+                </div>[m
+[31m-               [m
+[31m-               <div>ggg</div>[m
+[31m-               [m
+[31m-                  [m
+[31m-               [m
+[31m-            </nav>[m
+[31m-            </section>[m
+[31m-      <section class="header_two-part">[m
+[31m-      <div class="container">[m
+[32m+[m[32m            </div>[m
+[32m+[m[32m         </nav>[m
+[32m+[m
+[32m+[m
+[32m+[m[41m      [m
+[32m+[m[32m            <div class="popup" id="popup"></div>[m
+[32m+[m
+[32m+[m[41m         [m
+[32m+[m
+[32m+[m
+[32m+[m
+[32m+[m[32m         </div>[m
+[32m+[m
+[32m+[m[32m         </div>[m
+[32m+[m[32m         <section class="header_two-part">[m
+[32m+[m[32m            <div class="container">[m
+                <div class="header_two-part-block">[m
+                   <h1>Analog: The Simplest Productivity System</h1>[m
+                   <div>[m
+                      <a href="">Learn more →[m
+[31m-                           </a>[m
+[32m+[m[32m                     </a>[m
+                   </div>[m
+                </div>[m
+[31m-            </section>[m
+[32m+[m[32m         </section>[m
+       </header>[m
+ [m
+[31m-      [m
+[32m+[m
+[32m+[m
+[32m+[m
+       <section class="block_product">[m
+          <div class="container">[m
+ [m
+[31m-         <div class="block_product_nav">[m
+[31m-            <ul>[m
+[31m-               <li> <a href="">New Arrivals</a> </li>[m
+[31m-               <li> <a href=" ">Final Stock</a> </li>[m
+[31m-               <li> <a href="">Best Sellers </a> </li>[m
+[31m-               <li> <a href="">Clothing </a> </li>[m
+[31m-               <li> <a href="">Objects</a> </li>[m
+[31m-               <li> <a href="">Face Masks </a> </li>[m
+[31m-            </ul>[m
+[31m-         </div>[m
+[31m-         <div class="block_product_main">[m
+[31m-            <div class="block"> [m
+[31m-               <img src="img/p1.png" alt=""> [m
+[31m-               <div class="price">[m
+[32m+[m[32m            <div class="block_product_nav">[m
+[32m+[m[32m               <ul>[m
+[32m+[m[32m                  <li> <a href="">New Arrivals</a> </li>[m
+[32m+[m[32m                  <li> <a href=" ">Final Stock</a> </li>[m
+[32m+[m[32m                  <li> <a href="">Best Sellers </a> </li>[m
+[32m+[
