@@ -25,7 +25,7 @@
 .navbar__wrap {
    display: flex;
    justify-content: space-between;
-   height: 100%;
+   
 }
 
 .hamb {
@@ -40,9 +40,13 @@
    text-decoration: none;
 }
 
-.navbar__wrap .menu {
+.navbar__wrap {
+    height: 90px;
+   .menu {
    display: flex;
 }
+}
+  
 
 .navbar__wrap .menu > li {
    display: flex;
@@ -155,18 +159,6 @@
    }
 }
 
-.basket::before {
-   content: "";
-   display: block;
-   background: url("icon/basket.png") no-repeat;
-   width: 36px;
-   height: 20px;
-   margin: 48px 30px 0 13px;
-}
-.basket {
-   border-right: 1px solid #000;
-   height: 115px;
-}
 
 .basket-nav {
    display: flex;
@@ -190,6 +182,34 @@
    width: 1170px;
    overflow: hidden;
 }
+@media (max-width: 500px){
+   .header-main {
+      .header_two-part{
+      background: url(img/Rectangle.png) -400px 0/auto 100% no-repeat;
+                      } 
+        }
+   
+}
+
+@media (max-width: 700px){
+   main{
+      
+  .header-main {
+      .header_two-part{
+      background: url(img/Rectangle.png) -250px 0/auto 100% no-repeat;
+                      } 
+        }
+   
+}
+}
+@media (max-width: 900px){
+   .header-main {
+      .header_two-part{
+      background: url(img/Rectangle.png) -200px 0/auto 100% no-repeat;
+                      } 
+        }
+   
+}
 
 .header_two-part{
    background: url(img/Rectangle.png) 0 0/auto 100% no-repeat;
@@ -197,6 +217,7 @@
    display: flex;
    align-items: flex-end;
    justify-content: center;
+   
    .header_two-part-block{
       h1{
       font-family: "Roboto", sans-serif;
@@ -246,5 +267,84 @@
 }
 
 
+.basket-nav_icon {
+   position: relative;
+}
 
+.basket{
+   position: absolute;
+   top: 36px;
+   left: 12px;
+}
+
+
+
+.list-container {
+   position: relative;
+   display: none;
+
+}
+
+.list-content{
+    background-color: #fff;
+color: #000;
+padding: 0;
+padding: 6px;
+position: absolute;
+opacity: 0;
+transform: scale(0);
+transform-origin: top left;
+transition: all .3s ease .1s;
+top: 86px;
+right: 0;
+max-width: 1140px;
+width: 100%;
+}
+
+
+.drop-dow_menu{
+   .drop-dow_menu-list{
+      height: 200px;
+      ul{
+         li{
+            padding: 10px 0 15px 20px;
+            a{
+               color:#000;
+               text-decoration: none;
+               font-family: $main_font;
+               a:hover{
+                color:#53503f;
+               }
+            }
+         }
+      }
+   }
+}
+
+.drop-dow_menu-list > ul  > li > a:hover {
+   color: #565344;
+}
+
+.list-content {
+   border-top:2px solid #000
+}
+
+
+
+@media all and (max-width: 420px) {
+.navbar__wrap{
+   .basket-nav{
+      flex-direction: column;
+      .basket-nav_icon{
+        .basket {
+               top: 25px;
+               left: 6px;
+         } 
+      }
+      .basket-nav_login{
+         padding-top: 20px;
+      }
+   }
+}
+}
 

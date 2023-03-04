@@ -190,6 +190,9 @@
 .popup .menu > li > a:hover {
   color: #565344; }
 
+.header-main {
+  background-color: #000; }
+
 .block-footer {
   height: 350px;
   display: flex;

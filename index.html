@@ -17,15 +17,29 @@
 
 <body>
    <main>
-      <header class="tut">
+      <header class="header-main">
          <nav class="navbar">
             <div class="container_nav">
                <div class="navbar__wrap">
-                  <div class="hamb">
-                     <div class="hamb__field" id="hamb">
-                        <span class="bar"></span>
-                        <span class="bar"></span>
-                        <span class="bar"></span>
+                  <div class="list-container">
+                     <div class="more-button">
+                        <div class="menu-icon">
+                           <div class="menu-icon-line first"></div>
+                           <div class="menu-icon-line opacity"></div>
+                           <div class="menu-icon-line last"></div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="list-content">
+                     <div class="drop-dow_menu">
+                        <div class="drop-dow_menu-list"> 
+                        <ul>
+                           <li> <a href="">Men </a> </li>
+                           <li> <a href=" ">Women </a> </li>
+                           <li> <a href="">Objects </a> </li>
+                           <li> <a href="">Analog </a> </li>
+                        </ul>
+                     </div>
                      </div>
                   </div>
                   <a href="#" class="logo lk" id="logo">UGMONK </a>
@@ -42,8 +56,10 @@
                      <li> <a href="">Search </a></li>
                   </ul>
                   <div class="basket-nav">
-                     <a  class="basket-nav_login" href="#">Login </a> 
-                     <a  class="basket-nav_icon basket" href="#" class="basket"></a>
+                     <a  class="basket-nav_login data-modal " href="#" data-modal="">Login </ф> 
+                     <a  class="basket-nav_icon " href="#" >
+                        <img class="basket" src="icon/basket.png" alt="">
+                     </a>
                   </div>
 
                </div>
@@ -52,11 +68,7 @@
 
 
       
-            <div class="popup" id="popup"></div>
-
-         
-
-
+      
 
          </div>
 
@@ -396,10 +408,29 @@
          </div>
 </div>
       </footer>
+
+      <div class="modal">
+         <div class="modal__dialog">
+            <div class="modal__content">
+               <form action="#">
+                  <div class="modal__close" data-close="">
+                     ×
+                  </div>
+
+                  <div class="modal_title">
+                     Вход на сайт
+                  </div>
+                  <input required placeholder="Ваш логин" name="name" type="Login" class="modal__input">
+                    <input required placeholder="Ваш пароль" name="phone" type="password" class="modal__input">
+                    <button class="btn btn_dark btn_min">Войти </button>
+               </form>
+            </div>
+         </div>
+      </div>
    </main>
 
 
-   <script src="script.js"> </si>
+   <script src="script.js"> </script>
 </body>
 
 </html>
