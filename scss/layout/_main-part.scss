@@ -211,11 +211,20 @@ color: #000;
 }
 
 @media (max-width: 600px){
+   .block_form_form-text{
+      padding: 0 20px;
+   }
+   .block_type01, .block_type02, {
+      div{
+         padding: 0 20px;
+      }
+   }
    .block-advertising{
       .block-advertising-header{
          height: 50px;
          width: 360px;
          margin: 45px auto ;
+         padding: 0 20px;
          h1{
             font-family: $main_font;
             font-size: 19px;
@@ -320,4 +329,45 @@ color: #000;
  }
  
 
+ .order{
+   opacity: 0;
+   width: 100%;
+   height:90%;
+   line-height: 100px;
+   color: #fff;
+   position: absolute; top: 0; left: 0;
+   background-color: rgba(74, 74, 72, 0.55);
+   transition: opacity .3s;
+   text-align: center;
+   display: flex;
+   justify-content: center;
+   align-items: center;
  
+   a{
+      font-family:$main_font;
+      font-size: 19px, ;
+      color:#d5d916;
+      text-decoration: none;
+      font-weight: 600;
+   }
+}
+ .block:hover .order{
+   opacity: 1;    
+ }
+
+ .block{
+   position: relative;
+   img{
+      width: 100%;
+height: 90%;
+   }
+ }
+
+.price{
+   a{
+      text-decoration: none;
+      color:#000;
+
+   }
+}
+

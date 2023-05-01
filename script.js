@@ -60,7 +60,16 @@ modal.addEventListener('click', (e) => {
       });
          
 
+///basket
+const buys= document.querySelectorAll('.buy');
+const  buyCount = document.querySelector('.buyCount');
 
+count = 0;
+for(let btn of buys) {  
+   console.log(btn);
+ btn.onclick = function() {
+   count += 1;
+   buyCount.innerHTML =  count;
+ }; 
+ }
 });
-
-
